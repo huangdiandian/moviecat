@@ -1,0 +1,181 @@
+{
+  "count": 20,
+  "start": 0,
+  "total": 19,
+  "subjects": [{
+    "rating": {
+      "max": 10,
+      "average": 3.1,
+      "stars": "15",
+      "min": 0
+    },
+    "genres": ["剧情", "科幻", "冒险"],
+    "collect_count": 2613,
+    "casts": [{
+      "avatars": {
+        "small": "http://img3.doubanio.com\/img\/celebrity\/small\/1352302814.78.jpg",
+        "large": "http://img3.doubanio.com\/img\/celebrity\/large\/1352302814.78.jpg",
+        "medium": "http://img3.doubanio.com\/img\/celebrity\/medium\/1352302814.78.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1053551\/",
+      "id": "1053551",
+      "name": "布兰登·罗斯"
+    }, {
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/47020.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/47020.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/47020.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1274494\/",
+      "id": "1274494",
+      "name": "张雨绮"
+    }, {
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/36255.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/36255.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/36255.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1032117\/",
+      "id": "1032117",
+      "name": "王盛德"
+    }],
+    "title": "蒸发太平洋",
+    "original_title": "Lost in the Pacific",
+    "subtype": "movie",
+    "directors": [{
+      "avatars": {
+        "small": "http://img3.doubanio.com\/img\/celebrity\/small\/1394188197.37.jpg",
+        "large": "http://img3.doubanio.com\/img\/celebrity\/large\/1394188197.37.jpg",
+        "medium": "http://img3.doubanio.com\/img\/celebrity\/medium\/1394188197.37.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1338305\/",
+      "id": "1338305",
+      "name": "周文武贝"
+    }],
+    "year": "2016",
+    "images": {
+      "small": "http://img3.douban.com\/view\/movie_poster_cover\/ipst\/public\/p2306409195.jpg",
+      "large": "http://img3.douban.com\/view\/movie_poster_cover\/lpst\/public\/p2306409195.jpg",
+      "medium": "http://img3.douban.com\/view\/movie_poster_cover\/spst\/public\/p2306409195.jpg"
+    },
+    "alt": "http:\/\/movie.douban.com\/subject\/26279449\/",
+    "id": "26279449"
+  }, {
+    "rating": {
+      "max": 10,
+      "average": 3.4,
+      "stars": "20",
+      "min": 0
+    },
+    "genres": ["剧情", "悬疑", "恐怖"],
+    "collect_count": 312,
+    "casts": [{
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/40360.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/40360.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/40360.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1037846\/",
+      "id": "1037846",
+      "name": "莫少聪"
+    }, {
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/43334.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/43334.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/43334.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1317092\/",
+      "id": "1317092",
+      "name": "朱珠"
+    }, {
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/44245.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/44245.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/44245.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1318735\/",
+      "id": "1318735",
+      "name": "陈廷嘉"
+    }],
+    "title": "恶灵之门",
+    "original_title": "恶灵之门",
+    "subtype": "movie",
+    "directors": [{
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/1451286288.54.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/1451286288.54.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/1451286288.54.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1352793\/",
+      "id": "1352793",
+      "name": "郭大雷"
+    }],
+    "year": "2015",
+    "images": {
+      "small": "http://img3.douban.com\/view\/movie_poster_cover\/ipst\/public\/p2305205560.jpg",
+      "large": "http://img3.douban.com\/view\/movie_poster_cover\/lpst\/public\/p2305205560.jpg",
+      "medium": "http://img3.douban.com\/view\/movie_poster_cover\/spst\/public\/p2305205560.jpg"
+    },
+    "alt": "http:\/\/movie.douban.com\/subject\/26661696\/",
+    "id": "26661696"
+  }, {
+    "rating": {
+      "max": 10,
+      "average": 2.7,
+      "stars": "15",
+      "min": 0
+    },
+    "genres": ["喜剧", "爱情"],
+    "collect_count": 620,
+    "casts": [{
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/1374130433.92.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/1374130433.92.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/1374130433.92.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1313954\/",
+      "id": "1313954",
+      "name": "李菲儿"
+    }, {
+      "avatars": {
+        "small": "http://img3.doubanio.com\/img\/celebrity\/small\/13748.jpg",
+        "large": "http://img3.doubanio.com\/img\/celebrity\/large\/13748.jpg",
+        "medium": "http://img3.doubanio.com\/img\/celebrity\/medium\/13748.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1276163\/",
+      "id": "1276163",
+      "name": "立威廉"
+    }, {
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/12002.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/12002.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/12002.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1275882\/",
+      "id": "1275882",
+      "name": "黄明"
+    }],
+    "title": "致我们终将到来的爱情",
+    "original_title": "致我们终将到来的爱情",
+    "subtype": "movie",
+    "directors": [{
+      "avatars": {
+        "small": "http://img3.douban.com\/img\/celebrity\/small\/51732.jpg",
+        "large": "http://img3.douban.com\/img\/celebrity\/large\/51732.jpg",
+        "medium": "http://img3.douban.com\/img\/celebrity\/medium\/51732.jpg"
+      },
+      "alt": "http:\/\/movie.douban.com\/celebrity\/1321907\/",
+      "id": "1321907",
+      "name": "郑来志"
+    }],
+    "year": "2016",
+    "images": {
+      "small": "http://img3.douban.com\/view\/movie_poster_cover\/ipst\/public\/p2308492063.jpg",
+      "large": "http://img3.douban.com\/view\/movie_poster_cover\/lpst\/public\/p2308492063.jpg",
+      "medium": "http://img3.douban.com\/view\/movie_poster_cover\/spst\/public\/p2308492063.jpg"
+    },
+    "alt": "http:\/\/movie.douban.com\/subject\/26413306\/",
+    "id": "26413306"
+  }],
+  "title": "正在上映的电影-北京"
+}
