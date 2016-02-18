@@ -1,2 +1,22 @@
 <h1 class="page-header">正在热映</h1>
-
+<h2 ng-show="message">{{message}}</h2>
+<div class="list-group">
+  <a href="#" class="list-group-item" ng-repeat="item in subjects">
+    <span class="badge">{{item.rating.average}}</span>
+    <div class="media">
+      <div class="media-left">
+        <img class="media-object" ng-src="{{item.images.small}}">
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading">{{item.title}}</h2>
+        <p>
+          捣眼：
+          <span ng-repeat="d in item.directors">{{d.name}}
+          <span ng-if="!$last">、</span>
+          </span>
+        </p>
+        <p>类型：<span>{{item.genres.join("、")}}</span></p>
+      </div>
+    </div>
+  </a>
+</div>
