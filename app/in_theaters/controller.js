@@ -1,26 +1,36 @@
 (function(angular) {
-  'use strict';
+    'use strict';
 
-  var module = angular.module('moviecat.in_theaters', ['ngRoute']);
-  module.config(['$routeProvider', function($routeProvider) {
-    $routeProvider
-      .when('/in_theaters', {
-        templateUrl: 'in_theaters/view.html',
-        controller: 'InTheatersController',
-      });
-  }]);
-  module.controller('InTheatersController', ['$scope','$http', function($scope,$http) {
-    $scope.subjects = [];
-    $http.get('datas/top250.json').then(function(res){
-    	console.log(res);
-    	if(res.status==200){
-    		$scope.subjects = res.data.subjects;
-    	}else{
-    		$scope.message="数据加载错误...";
-    	}
+    var module = angular.module('moviecat.in_theaters', ['ngRoute', 'moviecat.service.http']);
+    module.config(['$routeProvider', function($routeProvider) {
+        $routeProvider
+            .when('/in_theaters/:page', {
+                templateUrl: 'in_theaters/view.html',
+                controller: 'InTheatersController',
+            });
+    }]);
+    module.controller('InTheatersController', [
+        '$scope',
+        '$routeParams',
+        'HttpService',
+        function($scope, $routeParams, HttpService) {
+            $scope.subjects = [];
+            $scope.totalCount = 0;
+            $scope.loading = true;
+            var page = parseInt($routeParams.page);
+            var count = 10;
+            var start = (page - 1) * count;
+            $scope.currentPage = page;
+            $scope.totalpage = 0;
+            HttpService.jsonp('http://api.douban.com/v2/movie/in_theaters', { start: start, count: count }, function(data) {
+                $scope.subjects = data.subjects;
+                $scope.totalCount = data.total;
+                $scope.totalpage = Math.ceil($scope.totalCount / count);
+                $scope.loading = false;
+                $scope.$apply('subjects');
+                //$spply的作用是让指定的表达式重新同步
 
-    },function(err){
-$scope.message="数据加载错误...";
-    })
-  }]);
+            })
+        }
+    ]);
 })(angular)
