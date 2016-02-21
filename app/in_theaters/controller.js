@@ -11,9 +11,10 @@
     }]);
     module.controller('InTheatersController', [
         '$scope',
+        '$route',
         '$routeParams',
         'HttpService',
-        function($scope, $routeParams, HttpService) {
+        function($scope, $route, $routeParams, HttpService) {
             $scope.subjects = [];
             $scope.totalCount = 0;
             $scope.loading = true;
@@ -30,7 +31,12 @@
                 $scope.$apply('subjects');
                 //$spply的作用是让指定的表达式重新同步
 
-            })
+            });
+            $scope.goPage = function(page) {
+                if (page >= 1 && page <= $scope.totalpage) {
+                    $route.updateParams({ page: page });
+                }
+            };
         }
     ]);
 })(angular)

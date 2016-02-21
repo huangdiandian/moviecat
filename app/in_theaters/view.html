@@ -20,7 +20,15 @@
         </div>
     </a>
 </div>
-<p ng-show="!loading">总共：{{totalCount}}条记录 第{{currentPage}}页/共{{totalpage}}页</p>
+<div ng-show="!loading">
+    <nav>
+        <ul class="pager">
+            <li ng-class="{disabled:currentPage<=1}"><a ng-click="goPage(currentPage-1)">上一页</a></li>
+            <li ng-class="{disabled:currentPage>=totalpage}"><a ng-click="goPage(currentPage+1)">下一页</a></li>
+        </ul>
+    </nav>
+    <p>总共：{{totalCount}}条记录 第{{currentPage}}页/共{{totalpage}}页</p>
+</div>
 <div class="mask" ng-show="loading">
     <div class="spinner">
         <div class="dot1"></div>
